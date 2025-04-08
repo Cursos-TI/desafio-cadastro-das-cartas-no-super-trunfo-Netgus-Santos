@@ -2,6 +2,8 @@
 
 int main() {
 
+// Variáveis em sequência numérica para continuidade das futuras cartas
+
     char estado1[50], estado2[50];
     char codigoc1[50], codigoc2[50];
     char nomec1[50], nomec2[50];
@@ -10,7 +12,7 @@ int main() {
     float pibc1, pibc2;
     int turismoc1, turismoc2;
     
-// Cadastramento Carta 01
+// Cadastramento Carta 01 com breve texto como títuto.
 
         printf("Cadastramento da Carta 1\n\n");
 
@@ -42,7 +44,7 @@ int main() {
         printf("Estado: %s\nCódigo da carta: %s\nNome da cidade: %s\nPopulação: %d\nÁrea (em km²): %.2f\nPIB: %.2f\nNúmero de pontos turísticos: %d\n\n", estado1, codigoc1, nomec1, popc1, areac1, pibc1, turismoc1);
 
 
-// Cadastramento Carta 02
+// Cadastramento Carta 02 com breve texto como títuto.
 
         printf("Cadastramento da Carta 2\n\n");
 
