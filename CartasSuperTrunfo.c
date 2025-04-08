@@ -13,20 +13,28 @@ int main() {
 // Cadastramento Carta 01
 
         printf("Cadastramento da Carta 1\n\n");
+
         printf("Digite uma letra de A a H para representar o estado: \n");
         scanf("%s", &estado1);
+
         printf("Digite o código da cidade acrescentando um número de 01 a 04: \n");
         scanf("%s", &codigoc1);
+
         printf("Digite o nome da cidade: \n");
         scanf("%s", &nomec1);
+
         printf("Digite a população da cidade: \n");
         scanf("%d", &popc1);
+
         printf("Digite a área em quilometros quadrados: \n");
         scanf("%f", &areac1);
+
         printf("Digite o Produto Interno Bruto da cidade: \n");
         scanf("%f", &pibc1);
+
         printf("Digite a quantidade de pontos turísticos da cidade: \n");
         scanf("%d", &turismoc1);
+
         printf("\n");
         printf("Carta 01\n");
         printf("\n");
@@ -37,20 +45,28 @@ int main() {
 // Cadastramento Carta 02
 
         printf("Cadastramento da Carta 2\n\n");
+
         printf("Digite uma letra de A a H para representar o estado: \n");
         scanf("%s", &estado2);
+
         printf("Digite o código da cidade acrescentando um número de 01 a 04: \n");
         scanf("%s", &codigoc2);
+
         printf("Digite o nome da cidade: \n");
         scanf("%s", &nomec2);
+
         printf("Digite a população da cidade: \n");
         scanf("%d", &popc2);
+
         printf("Digite a área em quilometros quadrados: \n");
         scanf("%f", &areac2);
+
         printf("Digite o Produto Interno Bruto da cidade: \n");
         scanf("%f", &pibc2);
+
         printf("Digite a quantidade de pontos turísticos da cidade: \n");
         scanf("%d", &turismoc2);
+        
         printf("\n");
         printf("Carta 02\n");
         printf("\n");
