@@ -10,6 +10,14 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
+        char estado1[50];
+        char codigoc1 [50];
+        char nomec1[50];
+        int popc1;
+        float areac1;
+        float pibc1;
+        int turismoc1;
+    
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
